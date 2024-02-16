@@ -1,0 +1,420 @@
+[29-Nov-2015 11:07:58 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1888
+[05-Mar-2016 10:31:09 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1888
+[17-Mar-2016 10:14:33 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[17-Mar-2016 10:14:33 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[17-Mar-2016 10:16:59 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[17-Mar-2016 10:16:59 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[17-Mar-2016 10:19:25 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[17-Mar-2016 10:19:25 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[13-Apr-2016 09:10:50 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 2452
+[13-Apr-2016 09:10:57 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 2452
+[13-Apr-2016 09:12:02 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 2452
+[13-Apr-2016 09:12:08 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[12-Nov-2016 07:02:15 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[17-Dec-2016 06:52:58 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[17-Dec-2016 07:26:24 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[12-Jan-2017 07:44:07 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 2452
+[06-Feb-2017 01:49:09 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:24 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:57 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:57 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:50:57 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icardsycom/public_html/protected/yii/base/CComponent.php(612) : eval()'d code on line 1
+[06-Feb-2017 01:58:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/icardsycom/public_html/protected/controllers/DamascusListController.php on line 73
+[06-Feb-2017 01:59:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/icardsycom/public_html/protected/controllers/DamascusListController.php on line 73
+[23-Feb-2017 10:21:35 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:23:51 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:23:54 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:24:20 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:24:23 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:24:26 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:24:28 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:25:35 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:25:36 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:25:37 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:27:18 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:27:21 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:27:24 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:27:53 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:28:07 America/Chicago] PHP Fatal error:  Call to a member function getData() on a non-object in /home/icardsycom/public_html/protected/yii/zii/widgets/CBaseListView.php on line 125
+[23-Feb-2017 10:31:19 America/Chicago] PHP Fatal error:  Call to undefined function isempty() in /home/icardsycom/public_html/protected/models/DamascusListEntry.php on line 139
+[11-Mar-2017 18:43:48 America/Chicago] PHP Fatal error:  Call to undefined method CHtml::a() in /home/icardsycom/public_html/protected/views/site/sr_complete.php on line 9
+[18-Mar-2017 11:00:40 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 2452
+[26-Mar-2017 07:31:57 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[19-Apr-2017 06:47:03 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[24-Apr-2017 09:02:55 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 2452
+[06-May-2017 09:37:22 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[01-Jul-2017 03:09:53 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[13-Sep-2017 10:28:48 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/public_html/protected/yii/web/helpers/CHtml.php on line 1513
+[16-Sep-2017 07:30:01 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:01 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:04 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:04 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:11 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:12 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:12 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:17 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:17 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:30 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:30 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:33 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:33 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:39 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:39 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:54 America/Chicago] PHP Warning:  require_once(protected/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:30:54 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'protected/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:34:05 America/Chicago] PHP Warning:  require_once(../framework/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:34:05 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../framework/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:34:10 America/Chicago] PHP Warning:  require_once(../framework/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:34:10 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../framework/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:35:23 America/Chicago] PHP Warning:  require_once(../framework/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:35:23 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../framework/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:37:04 America/Chicago] PHP Warning:  require_once(../framework/yii/yii.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 07:37:04 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../framework/yii/yii.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/index.php on line 12
+[16-Sep-2017 08:21:44 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:22:01 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:22:05 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:22:06 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:22:14 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:22:39 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:22:58 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:33 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:34 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:35 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:35 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:36 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:37 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:37 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[16-Sep-2017 08:24:37 America/Chicago] PHP Fatal error:  Class 'BaseController' not found in /home/icardsycom/public_html/protected/controllers/SiteController.php on line 4
+[17-Sep-2017 03:46:02 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[17-Sep-2017 11:01:01 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Sep-2017 03:46:07 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Sep-2017 03:48:18 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Sep-2017 14:15:36 America/Chicago] PHP Warning:  require(/home/icardsycom/public_html/protected/config/main.php): failed to open stream: No such file or directory in /home/icardsycom/framework/yii/base/CApplication.php on line 137
+[19-Sep-2017 14:15:36 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/icardsycom/public_html/protected/config/main.php' (include_path='.:/opt/php54/lib/php') in /home/icardsycom/framework/yii/base/CApplication.php on line 137
+[19-Sep-2017 14:25:54 America/Chicago] PHP Warning:  include(/home/icardsycom/public_html/protected/config/../config/info.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:25:54 America/Chicago] PHP Warning:  include(): Failed opening '/home/icardsycom/public_html/protected/config/../config/info.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:25:57 America/Chicago] PHP Warning:  include(/home/icardsycom/public_html/protected/config/../config/info.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:25:57 America/Chicago] PHP Warning:  include(): Failed opening '/home/icardsycom/public_html/protected/config/../config/info.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:25:58 America/Chicago] PHP Warning:  include(/home/icardsycom/public_html/protected/config/../config/info.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:25:58 America/Chicago] PHP Warning:  include(): Failed opening '/home/icardsycom/public_html/protected/config/../config/info.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:26:41 America/Chicago] PHP Warning:  include(/home/icardsycom/public_html/protected/config/../../config/info.php): failed to open stream: No such file or directory in /home/icardsycom/public_html/protected/config/main.php on line 8
+[19-Sep-2017 14:26:41 America/Chicago] PHP Warning:  include(): Failed opening '/home/icardsycom/public_html/protected/config/../../config/info.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/icardsycom/public_html/protected/config/main.php on line 8
+[20-Sep-2017 04:50:06 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[20-Sep-2017 09:01:08 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[20-Sep-2017 09:01:21 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[20-Sep-2017 09:01:41 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Sep-2017 02:34:57 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Sep-2017 03:34:19 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[21-Sep-2017 04:50:02 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Sep-2017 06:41:02 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Sep-2017 06:41:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 04:09:17 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 04:09:41 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 04:56:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 04:57:06 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 04:57:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 04:58:00 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 05:01:36 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Sep-2017 09:43:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Sep-2017 05:39:43 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[01-Oct-2017 02:51:16 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[02-Oct-2017 03:53:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:20:00 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:28:08 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:40:03 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:53:01 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:54:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:57:36 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 03:59:07 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 04:02:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 04:17:26 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Oct-2017 04:19:47 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Oct-2017 08:38:45 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Oct-2017 07:17:10 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Oct-2017 07:18:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Oct-2017 07:19:23 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Oct-2017 07:20:53 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Oct-2017 07:31:34 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Oct-2017 00:45:53 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Oct-2017 00:46:44 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Oct-2017 00:51:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Oct-2017 00:52:00 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Oct-2017 04:34:37 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Oct-2017 10:16:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[14-Oct-2017 10:17:01 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Oct-2017 06:09:22 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Oct-2017 10:23:19 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Oct-2017 08:23:08 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Oct-2017 08:59:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Oct-2017 09:28:08 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[25-Oct-2017 05:03:51 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Oct-2017 07:35:32 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Oct-2017 11:25:28 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Oct-2017 06:12:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Oct-2017 06:23:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Oct-2017 04:16:48 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Oct-2017 07:16:47 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Oct-2017 09:03:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[29-Oct-2017 03:48:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[29-Oct-2017 09:00:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[29-Oct-2017 11:33:27 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[30-Oct-2017 09:54:07 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-Oct-2017 07:53:40 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-Oct-2017 07:54:34 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-Oct-2017 08:07:31 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-Oct-2017 08:17:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[01-Nov-2017 10:57:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[01-Nov-2017 11:33:00 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[02-Nov-2017 05:46:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Nov-2017 05:00:13 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Nov-2017 07:02:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[05-Nov-2017 04:10:53 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[05-Nov-2017 09:04:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[05-Nov-2017 09:30:02 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Nov-2017 08:46:45 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-Nov-2017 02:27:00 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[09-Nov-2017 03:36:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Nov-2017 07:33:17 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Nov-2017 07:33:41 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Nov-2017 07:35:48 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Nov-2017 07:37:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Nov-2017 05:08:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Nov-2017 05:54:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Nov-2017 04:29:55 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[20-Nov-2017 08:28:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[20-Nov-2017 08:30:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Nov-2017 05:08:12 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Nov-2017 08:16:26 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Nov-2017 08:17:36 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Nov-2017 04:36:28 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Nov-2017 08:46:06 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Nov-2017 09:13:40 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Nov-2017 11:15:23 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[29-Nov-2017 08:09:09 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Dec-2017 06:02:05 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Dec-2017 05:00:14 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Dec-2017 05:00:21 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Dec-2017 07:58:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Dec-2017 08:11:09 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[05-Dec-2017 06:35:20 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Dec-2017 07:00:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[09-Dec-2017 07:12:46 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[09-Dec-2017 07:15:30 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[13-Dec-2017 07:43:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[13-Dec-2017 09:35:33 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Dec-2017 07:53:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Dec-2017 04:59:42 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[23-Dec-2017 05:33:53 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Dec-2017 04:20:26 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Dec-2017 04:23:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Dec-2017 04:37:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Dec-2017 07:26:48 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Dec-2017 07:39:01 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 2452
+[26-Dec-2017 07:39:15 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[26-Dec-2017 09:04:27 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Jan-2018 04:01:29 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Jan-2018 09:24:09 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Jan-2018 03:30:22 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-Jan-2018 07:45:19 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[09-Jan-2018 04:01:57 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Jan-2018 04:18:14 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Jan-2018 09:45:12 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[13-Jan-2018 03:25:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[14-Jan-2018 09:23:20 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[17-Jan-2018 09:19:41 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jan-2018 02:37:22 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jan-2018 05:04:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Jan-2018 03:50:22 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Jan-2018 06:02:47 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Jan-2018 06:02:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Jan-2018 06:02:57 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-Jan-2018 09:28:38 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-Jan-2018 09:28:47 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-Feb-2018 06:19:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Feb-2018 03:30:16 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Feb-2018 07:59:50 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Feb-2018 08:41:20 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[13-Feb-2018 06:37:14 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[15-Feb-2018 08:38:16 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Feb-2018 06:12:33 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Feb-2018 08:09:35 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Feb-2018 06:33:23 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[01-Mar-2018 09:24:16 America/Chicago] PHP Fatal error:  Call to a member function isAttributeRequired() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 1513
+[03-Mar-2018 08:15:12 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Mar-2018 10:43:11 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Mar-2018 10:43:18 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[05-Mar-2018 03:08:42 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[05-Mar-2018 03:21:10 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Mar-2018 03:42:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Mar-2018 04:14:19 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Mar-2018 04:14:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Mar-2018 04:15:18 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-Mar-2018 06:26:48 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-Mar-2018 06:27:50 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-Mar-2018 06:28:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-Mar-2018 07:16:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-Mar-2018 07:16:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-Mar-2018 07:17:13 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-Mar-2018 07:17:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Mar-2018 04:43:53 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Mar-2018 06:30:13 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[10-Mar-2018 08:02:36 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Mar-2018 05:26:29 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Mar-2018 07:14:53 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Mar-2018 07:22:56 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Mar-2018 06:34:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Mar-2018 06:01:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Mar-2018 09:35:21 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Mar-2018 03:35:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Mar-2018 03:35:08 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Mar-2018 07:35:30 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-Mar-2018 10:05:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-Mar-2018 10:29:40 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[29-Mar-2018 03:26:07 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[01-Apr-2018 04:33:35 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Apr-2018 07:08:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[09-Apr-2018 05:59:25 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 2452
+[19-Apr-2018 09:07:49 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Apr-2018 05:27:32 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Apr-2018 10:17:48 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Apr-2018 10:18:00 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Apr-2018 10:18:05 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Apr-2018 10:18:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Apr-2018 10:18:36 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Apr-2018 04:05:17 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Apr-2018 04:05:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Apr-2018 04:05:47 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Apr-2018 04:05:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Apr-2018 04:06:07 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-Apr-2018 08:03:31 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[07-May-2018 05:31:09 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-May-2018 03:58:39 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-May-2018 07:09:17 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[08-May-2018 07:10:37 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 2452
+[08-May-2018 07:10:41 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 2452
+[10-May-2018 04:37:03 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[15-May-2018 09:48:32 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[15-May-2018 09:50:31 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[15-May-2018 09:53:26 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[15-May-2018 09:53:35 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[15-May-2018 09:53:50 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[16-May-2018 08:56:32 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-May-2018 04:02:14 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-May-2018 04:02:21 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-May-2018 09:36:16 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-May-2018 09:36:21 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-May-2018 09:36:26 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-May-2018 09:54:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-May-2018 09:56:01 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-May-2018 10:32:38 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[25-May-2018 10:32:51 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-May-2018 08:24:55 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-May-2018 16:05:19 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-May-2018 06:02:06 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-May-2018 08:47:49 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Jun-2018 01:31:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Jun-2018 10:37:21 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Jun-2018 05:13:12 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Jun-2018 05:38:54 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Jun-2018 06:06:16 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jun-2018 06:48:50 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jun-2018 06:48:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jun-2018 06:49:43 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jun-2018 06:49:59 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jun-2018 06:50:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Jun-2018 03:20:17 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Jun-2018 03:20:51 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Jun-2018 10:31:05 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Jun-2018 02:50:44 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Jun-2018 02:51:58 America/Chicago] PHP Fatal error:  Call to a member function hasErrors() on a non-object in /home/icardsycom/framework/yii/web/helpers/CHtml.php on line 2452
+[23-Jun-2018 08:20:29 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Jun-2018 06:25:27 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-Jun-2018 03:43:08 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[27-Jun-2018 09:20:14 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[03-Jul-2018 09:44:15 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[09-Jul-2018 08:23:06 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Jul-2018 07:12:29 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Jul-2018 07:35:07 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[16-Jul-2018 08:36:03 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[16-Jul-2018 09:31:43 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[17-Jul-2018 08:29:03 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[18-Jul-2018 09:10:25 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[19-Jul-2018 09:05:45 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Jul-2018 03:16:34 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[21-Jul-2018 04:25:43 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Jul-2018 04:28:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Jul-2018 04:44:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Jul-2018 07:40:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Jul-2018 07:41:28 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[22-Jul-2018 08:30:55 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[23-Jul-2018 04:19:28 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[24-Jul-2018 10:29:34 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[26-Jul-2018 04:19:33 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Jul-2018 02:20:59 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Jul-2018 03:08:22 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[28-Jul-2018 03:11:41 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[29-Jul-2018 06:48:42 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[31-Jul-2018 04:21:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[01-Aug-2018 09:22:47 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[02-Aug-2018 04:23:01 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[02-Aug-2018 07:58:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[04-Aug-2018 06:34:37 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Aug-2018 02:14:37 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Aug-2018 02:14:50 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Aug-2018 02:14:58 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Aug-2018 02:16:23 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[06-Aug-2018 02:18:49 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[09-Aug-2018 10:12:03 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Aug-2018 05:47:35 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Aug-2018 07:11:04 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Aug-2018 09:06:52 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Aug-2018 10:04:28 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Aug-2018 10:05:38 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[11-Aug-2018 10:05:44 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 01:25:45 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 01:27:05 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 02:02:31 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 04:04:55 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 04:54:20 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 04:54:24 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 04:54:34 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 04:54:37 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 05:19:29 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 05:19:51 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 05:22:33 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 07:45:22 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12
+[12-Aug-2018 07:49:40 America/Chicago] PHP Fatal error:  Cannot redeclare class BaseController in /home/icardsycom/public_html/protected/controllers/BaseController.php on line 12

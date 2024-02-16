@@ -1,0 +1,811 @@
+2018/08/09 06:20:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (15,33,40,41,53,64,65,73,77,99,101,112,116,117,135,136,137,138,139,140,141,164,165,217,223,238,264,274,275,309,343,348,349,350,351,366,367,368,369,370,394,396,397,399,429,432,433,447,460,486,487,488,489,503,504,512,514,521,522,548,556,564,570,583,591,607,609,625,631,647,677,679,686,697,706,713,729,738,754,781,785,792,800,805,814,819,834,850,860,863,865,871,887,898,909,911,925,937,942,960,961,966,968,972,983,999,1004,1021,1035,1054,1061,1078,1101,1114,1125,1134,1144,1153,1170,1180,1196,1209,1222,1235,1245,1261,1269,1276,1314,1317,1318,1343,1364,1374,1375,1394,1404,1409,1419,1422,1439,1442,1447,1448,1449,1454,1473,1491,1502,1513,1531,1546,1554,1561,1566,1582,1583,1608,1612,1628,1644)) AND (student_id IN ()).
+in /home/icardsycom/public_html/protected/models/DamascusList.php (139)
+in /home/icardsycom/public_html/protected/views/damascusList/admin.php (98)
+in /home/icardsycom/public_html/protected/controllers/DamascusListController.php (182)
+2018/08/09 06:20:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (15,33,40,41,53,64,65,73,77,99,101,112,116,117,135,136,137,138,139,140,141,164,165,217,223,238,264,274,275,309,343,348,349,350,351,366,367,368,369,370,394,396,397,399,429,432,433,447,460,486,487,488,489,503,504,512,514,521,522,548,556,564,570,583,591,607,609,625,631,647,677,679,686,697,706,713,729,738,754,781,785,792,800,805,814,819,834,850,860,863,865,871,887,898,909,911,925,937,942,960,961,966,968,972,983,999,1004,1021,1035,1054,1061,1078,1101,1114,1125,1134,1144,1153,1170,1180,1196,1209,1222,1235,1245,1261,1269,1276,1314,1317,1318,1343,1364,1374,1375,1394,1404,1409,1419,1422,1439,1442,1447,1448,1449,1454,1473,1491,1502,1513,1531,1546,1554,1561,1566,1582,1583,1608,1612,1628,1644)) AND (student_id IN ())' in /home/icardsycom/framework/yii/db/CDbCommand.php:543
+Stack trace:
+#0 /home/icardsycom/framework/yii/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/icardsycom/public_html/protected/models/DamascusList.php(139): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /home/icardsycom/public_html/protected/views/damascusList/admin.php(98): DamascusList->search()
+#5 /home/icardsycom/framework/yii/web/CBaseController.php(126): require('/home/icardsyco...')
+#6 /home/icardsycom/framework/yii/web/CBaseController.php(95): CBaseController->renderInternal('/home/icardsyco...', Array, true)
+#7 /home/icardsycom/framework/yii/web/CController.php(869): CBaseController->renderFile('/home/icardsyco...', Array, true)
+#8 /home/icardsycom/framework/yii/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#9 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(182): CController->render('admin', Array)
+#10 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): DamascusListController->actionAdmin()
+#11 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(240): CFilterChain->run()
+#14 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): DamascusListController->filterCheckAccess(Object(CFilterChain))
+#15 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#17 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('admin')
+#19 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('damascusList/ad...')
+#20 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/damascusList/admin?DamascusList%5Bnum%5D=&DamascusList%5Bdate%5D=&DamascusList%5Bstart_date%5D=&DamascusList%5Bend_date%5D=&DamascusList%5Bcourse_type_id%5D=2&DamascusList%5Bfirst_name%5D=+%D9%86%D9%88%D8%B1&DamascusList%5Blast_name%5D=%D8%B2%D8%B9&DamascusList%5Bfather_name%5D=&ajax=damascus-list-grid
+HTTP_REFERER=http://icard.technology/damascusList/admin
+---
+2018/08/09 07:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2018/08/09 07:24:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (7,19,28,44,47,58,74,75,76,96,97,98,114,127,128,129,130,131,132,133,176,177,207,219,227,230,249,255,294,295,304,308,310,311,312,313,314,315,316,317,392,393,431,446,451,458,467,468,469,470,471,472,473,506,527,528,538,550,559,566,569,580,589,601,624,628,637,639,655,668,673,698,720,722,723,739,746,755,756,760,767,773,780,794,795,806,813,824,832,837,839,840,843,861,867,875,884,892,907,912,913,936,938,959,969,994,1005,1012,1026,1033,1043,1050,1064,1065,1075,1079,1097,1115,1130,1142,1147,1167,1182,1183,1200,1202,1229,1230,1237,1238,1250,1253,1266,1267,1270,1291,1292,1310,1328,1346,1347,1360,1377,1382,1385,1392,1407,1412,1417,1438,1440,1458,1464,1477,1482,1488,1507,1528,1539,1549,1560,1574,1584,1591,1601,1613,1626,1627,1633)) AND (student_id IN ()).
+in /home/icardsycom/public_html/protected/models/DamascusList.php (139)
+in /home/icardsycom/public_html/protected/views/damascusList/admin.php (98)
+in /home/icardsycom/public_html/protected/controllers/DamascusListController.php (182)
+2018/08/09 07:24:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (7,19,28,44,47,58,74,75,76,96,97,98,114,127,128,129,130,131,132,133,176,177,207,219,227,230,249,255,294,295,304,308,310,311,312,313,314,315,316,317,392,393,431,446,451,458,467,468,469,470,471,472,473,506,527,528,538,550,559,566,569,580,589,601,624,628,637,639,655,668,673,698,720,722,723,739,746,755,756,760,767,773,780,794,795,806,813,824,832,837,839,840,843,861,867,875,884,892,907,912,913,936,938,959,969,994,1005,1012,1026,1033,1043,1050,1064,1065,1075,1079,1097,1115,1130,1142,1147,1167,1182,1183,1200,1202,1229,1230,1237,1238,1250,1253,1266,1267,1270,1291,1292,1310,1328,1346,1347,1360,1377,1382,1385,1392,1407,1412,1417,1438,1440,1458,1464,1477,1482,1488,1507,1528,1539,1549,1560,1574,1584,1591,1601,1613,1626,1627,1633)) AND (student_id IN ())' in /home/icardsycom/framework/yii/db/CDbCommand.php:543
+Stack trace:
+#0 /home/icardsycom/framework/yii/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/icardsycom/public_html/protected/models/DamascusList.php(139): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /home/icardsycom/public_html/protected/views/damascusList/admin.php(98): DamascusList->search()
+#5 /home/icardsycom/framework/yii/web/CBaseController.php(126): require('/home/icardsyco...')
+#6 /home/icardsycom/framework/yii/web/CBaseController.php(95): CBaseController->renderInternal('/home/icardsyco...', Array, true)
+#7 /home/icardsycom/framework/yii/web/CController.php(869): CBaseController->renderFile('/home/icardsyco...', Array, true)
+#8 /home/icardsycom/framework/yii/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#9 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(182): CController->render('admin', Array)
+#10 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): DamascusListController->actionAdmin()
+#11 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(240): CFilterChain->run()
+#14 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): DamascusListController->filterCheckAccess(Object(CFilterChain))
+#15 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#17 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('admin')
+#19 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('damascusList/ad...')
+#20 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/damascusList/admin?DamascusList%5Bnum%5D=&DamascusList%5Bdate%5D=&DamascusList%5Bstart_date%5D=&DamascusList%5Bend_date%5D=&DamascusList%5Bcourse_type_id%5D=3&DamascusList%5Bfirst_name%5D=%D8%AE%D8%AF%D9%8A%D8%AC%D9%87&DamascusList%5Blast_name%5D=%D9%81%D9%87%D8%AF&DamascusList%5Bfather_name%5D=&ajax=damascus-list-grid
+HTTP_REFERER=http://icard.technology/damascusList/admin
+---
+2018/08/09 10:12:03 [error] [exception.CHttpException.500] exception 'CHttpException' in /home/icardsycom/public_html/protected/controllers/StudentController.php:399
+Stack trace:
+#0 [internal function]: StudentController->actionShowStudentContact('')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(StudentController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(StudentController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/StudentController.php(978): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): StudentController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('showStudentCont...')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('student/showStu...')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/student/showStudentContact?student_ids=
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/09 11:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+HTTP_REFERER=http://www.icard.technology/robots.txt
+---
+2018/08/09 17:00:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2018/08/09 22:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2018/08/10 12:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+HTTP_REFERER=http://www.icard.technology/robots.txt
+---
+2018/08/11 04:27:34 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 04:27:34 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 05:47:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10021-98' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_type_assignment` (`registration_method`, `student_id`, `course_type_id`, `initial_payment`, `initial_payment_num`, `preferred_time`, `note`, `status`, `registration_date`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (625)
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (978)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 05:47:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'العنصر غير موجود' in /home/icardsycom/public_html/protected/controllers/CourseController.php:454
+Stack trace:
+#0 [internal function]: CourseController->actionCourses('')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CourseController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CourseController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('courses')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/courses')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/course/courses?course_type_id=
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/11 07:11:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'حدد الطلاب و الدورة بشكل صحيح !' in /home/icardsycom/public_html/protected/controllers/CourseController.php:362
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#1 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#4 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#5 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#7 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#10 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://icard.technology/student/waitinglist
+---
+2018/08/11 07:22:27 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 07:22:27 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 07:22:50 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 07:22:50 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 08:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+HTTP_REFERER=http://www.icard.technology/robots.txt
+---
+2018/08/11 09:06:52 [error] [exception.CHttpException.500] exception 'CHttpException' in /home/icardsycom/public_html/protected/controllers/CourseController.php:655
+Stack trace:
+#0 [internal function]: CourseController->actionShowStudentContact('1647', '')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CourseController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CourseController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('showStudentCont...')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/showStud...')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/course/showStudentContact?course_id=1647&student_ids=
+HTTP_REFERER=http://icard.technology/course/view/1647
+---
+2018/08/11 09:59:07 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 09:59:07 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:04:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11208-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/11 10:04:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('11208')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/11 10:05:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9237-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/11 10:05:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('9237')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/11 10:05:44 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9237-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/11 10:05:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('9237')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/11 10:06:47 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:06:47 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:09:52 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:09:52 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:11:20 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:11:20 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:16:00 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:16:00 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:16:27 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:16:27 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:30:35 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:30:35 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:31:03 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:31:03 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:31:24 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/11 10:31:24 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 01:25:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'حدد الطلاب و الدورة بشكل صحيح !' in /home/icardsycom/public_html/protected/controllers/CourseController.php:362
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#1 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#4 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#5 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#7 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#10 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://icard.technology/student/waitinglist
+---
+2018/08/12 01:27:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'حدد الطلاب و الدورة بشكل صحيح !' in /home/icardsycom/public_html/protected/controllers/CourseController.php:362
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#1 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#4 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#5 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#7 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#10 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://icard.technology/student/waitinglist
+---
+2018/08/12 02:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'العنصر غير موجود' in /home/icardsycom/public_html/protected/controllers/CourseController.php:454
+Stack trace:
+#0 [internal function]: CourseController->actionCourses('')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CourseController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CourseController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('courses')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/courses')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/course/courses?course_type_id=
+HTTP_REFERER=http://icard.technology/student/waitingList
+---
+2018/08/12 04:04:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'العنصر غير موجود' in /home/icardsycom/public_html/protected/controllers/CourseController.php:454
+Stack trace:
+#0 [internal function]: CourseController->actionCourses('')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CourseController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CourseController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('courses')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/courses')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/course/courses?course_type_id=
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 04:50:08 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 04:50:08 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 04:54:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11208-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/12 04:54:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('11208')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 04:54:24 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11208-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/12 04:54:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('11208')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 04:54:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11208-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/12 04:54:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('11208')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 04:54:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11208-1503' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_assignment` (`student_id`, `course_id`, `grade`, `mark`) VALUES (:student_id, :course_id, :grade, :mark).
+in /home/icardsycom/public_html/protected/models/Course.php (176)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (358)
+in /home/icardsycom/public_html/protected/controllers/CourseController.php (861)
+2018/08/12 04:54:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'الطالب مسجل مسبقا في الدورة' in /home/icardsycom/public_html/protected/models/Course.php:178
+Stack trace:
+#0 /home/icardsycom/public_html/protected/controllers/CourseController.php(358): Course->registerForCourse('11208')
+#1 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#2 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#8 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#11 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 05:17:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '14406-11' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `tbl_student_course_type_assignment` (`registration_method`, `student_id`, `course_type_id`, `initial_payment`, `initial_payment_num`, `preferred_time`, `note`, `status`, `registration_date`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (625)
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (978)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 05:19:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'طلب خاطئ' in /home/icardsycom/public_html/protected/controllers/CourseController.php:216
+Stack trace:
+#0 [internal function]: CourseController->actionShowStudentContract('14406')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CourseController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CourseController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('showStudentCont...')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/showStud...')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/course/showStudentContract?student_id=14406&course_type_id=11&cost=&paid=&yt0=%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 05:19:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'طلب خاطئ' in /home/icardsycom/public_html/protected/controllers/CourseController.php:216
+Stack trace:
+#0 [internal function]: CourseController->actionShowStudentContract('14406')
+#1 /home/icardsycom/framework/yii/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CourseController), Array)
+#2 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CourseController), Object(ReflectionMethod), Array)
+#3 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#6 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#7 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#9 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('showStudentCont...')
+#11 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/showStud...')
+#12 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/course/showStudentContract?student_id=14406&course_type_id=11&cost=0000&paid=&yt0=%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 05:22:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'حدد الطلاب و الدورة بشكل صحيح !' in /home/icardsycom/public_html/protected/controllers/CourseController.php:362
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): CourseController->actionRegisterForCourse()
+#1 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/icardsycom/public_html/protected/controllers/CourseController.php(861): CFilterChain->run()
+#4 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): CourseController->filterCheckAccess(Object(CFilterChain))
+#5 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#7 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('registerForCour...')
+#9 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('course/register...')
+#10 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/course/registerForCourse
+HTTP_REFERER=http://www.icard.technology/student/waitinglist
+---
+2018/08/12 05:39:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (8,12,13,29,35,45,61,85,102,103,154,155,156,157,158,159,160,161,162,163,221,250,251,252,253,268,269,296,297,298,299,305,306,307,329,331,334,336,337,338,339,340,341,342,435,438,439,453,456,478,479,484,485,511,526,532,552,563,579,587,600,606,615,626,627,632,634,635,657,658,669,670,680,685,694,695,703,710,717,734,751,786,797,798,799,812,828,830,831,855,857,870,878,882,891,906,919,935,941,973,988,1001,1003,1049,1067,1073,1082,1088,1095,1120,1121,1126,1137,1138,1139,1146,1160,1164,1168,1184,1195,1214,1215,1221,1240,1257,1271,1289,1294,1337,1342,1366,1376,1391,1402,1413,1429,1430,1466,1480,1481,1485,1496,1505,1518,1538,1541,1550,1552,1563,1572,1576,1578,1580,1585,1599,1605,1606,1615,1631,1632,1637,1647,1650)) AND (student_id IN ()).
+in /home/icardsycom/public_html/protected/models/DamascusList.php (139)
+in /home/icardsycom/public_html/protected/views/damascusList/admin.php (98)
+in /home/icardsycom/public_html/protected/controllers/DamascusListController.php (182)
+2018/08/12 05:39:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (8,12,13,29,35,45,61,85,102,103,154,155,156,157,158,159,160,161,162,163,221,250,251,252,253,268,269,296,297,298,299,305,306,307,329,331,334,336,337,338,339,340,341,342,435,438,439,453,456,478,479,484,485,511,526,532,552,563,579,587,600,606,615,626,627,632,634,635,657,658,669,670,680,685,694,695,703,710,717,734,751,786,797,798,799,812,828,830,831,855,857,870,878,882,891,906,919,935,941,973,988,1001,1003,1049,1067,1073,1082,1088,1095,1120,1121,1126,1137,1138,1139,1146,1160,1164,1168,1184,1195,1214,1215,1221,1240,1257,1271,1289,1294,1337,1342,1366,1376,1391,1402,1413,1429,1430,1466,1480,1481,1485,1496,1505,1518,1538,1541,1550,1552,1563,1572,1576,1578,1580,1585,1599,1605,1606,1615,1631,1632,1637,1647,1650)) AND (student_id IN ())' in /home/icardsycom/framework/yii/db/CDbCommand.php:543
+Stack trace:
+#0 /home/icardsycom/framework/yii/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/icardsycom/public_html/protected/models/DamascusList.php(139): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /home/icardsycom/public_html/protected/views/damascusList/admin.php(98): DamascusList->search()
+#5 /home/icardsycom/framework/yii/web/CBaseController.php(126): require('/home/icardsyco...')
+#6 /home/icardsycom/framework/yii/web/CBaseController.php(95): CBaseController->renderInternal('/home/icardsyco...', Array, true)
+#7 /home/icardsycom/framework/yii/web/CController.php(869): CBaseController->renderFile('/home/icardsyco...', Array, true)
+#8 /home/icardsycom/framework/yii/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#9 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(182): CController->render('admin', Array)
+#10 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): DamascusListController->actionAdmin()
+#11 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(240): CFilterChain->run()
+#14 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): DamascusListController->filterCheckAccess(Object(CFilterChain))
+#15 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#17 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('admin')
+#19 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('damascusList/ad...')
+#20 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/damascusList/admin?DamascusList%5Bnum%5D=&DamascusList%5Bdate%5D=&DamascusList%5Bstart_date%5D=&DamascusList%5Bend_date%5D=&DamascusList%5Bcourse_type_id%5D=1&DamascusList%5Bfirst_name%5D=%D8%A8%D8%B3%D8%A7%D9%85&DamascusList%5Blast_name%5D=%D8%AD%D9%88%D9%89&DamascusList%5Bfather_name%5D=&ajax=damascus-list-grid
+HTTP_REFERER=http://www.icard.technology/damascusList/admin
+---
+2018/08/12 05:40:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (8,12,13,29,35,45,61,85,102,103,154,155,156,157,158,159,160,161,162,163,221,250,251,252,253,268,269,296,297,298,299,305,306,307,329,331,334,336,337,338,339,340,341,342,435,438,439,453,456,478,479,484,485,511,526,532,552,563,579,587,600,606,615,626,627,632,634,635,657,658,669,670,680,685,694,695,703,710,717,734,751,786,797,798,799,812,828,830,831,855,857,870,878,882,891,906,919,935,941,973,988,1001,1003,1049,1067,1073,1082,1088,1095,1120,1121,1126,1137,1138,1139,1146,1160,1164,1168,1184,1195,1214,1215,1221,1240,1257,1271,1289,1294,1337,1342,1366,1376,1391,1402,1413,1429,1430,1466,1480,1481,1485,1496,1505,1518,1538,1541,1550,1552,1563,1572,1576,1578,1580,1585,1599,1605,1606,1615,1631,1632,1637,1647,1650)) AND (student_id IN ()).
+in /home/icardsycom/public_html/protected/models/DamascusList.php (139)
+in /home/icardsycom/public_html/protected/views/damascusList/admin.php (98)
+in /home/icardsycom/public_html/protected/controllers/DamascusListController.php (182)
+2018/08/12 05:40:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (8,12,13,29,35,45,61,85,102,103,154,155,156,157,158,159,160,161,162,163,221,250,251,252,253,268,269,296,297,298,299,305,306,307,329,331,334,336,337,338,339,340,341,342,435,438,439,453,456,478,479,484,485,511,526,532,552,563,579,587,600,606,615,626,627,632,634,635,657,658,669,670,680,685,694,695,703,710,717,734,751,786,797,798,799,812,828,830,831,855,857,870,878,882,891,906,919,935,941,973,988,1001,1003,1049,1067,1073,1082,1088,1095,1120,1121,1126,1137,1138,1139,1146,1160,1164,1168,1184,1195,1214,1215,1221,1240,1257,1271,1289,1294,1337,1342,1366,1376,1391,1402,1413,1429,1430,1466,1480,1481,1485,1496,1505,1518,1538,1541,1550,1552,1563,1572,1576,1578,1580,1585,1599,1605,1606,1615,1631,1632,1637,1647,1650)) AND (student_id IN ())' in /home/icardsycom/framework/yii/db/CDbCommand.php:543
+Stack trace:
+#0 /home/icardsycom/framework/yii/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/icardsycom/public_html/protected/models/DamascusList.php(139): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /home/icardsycom/public_html/protected/views/damascusList/admin.php(98): DamascusList->search()
+#5 /home/icardsycom/framework/yii/web/CBaseController.php(126): require('/home/icardsyco...')
+#6 /home/icardsycom/framework/yii/web/CBaseController.php(95): CBaseController->renderInternal('/home/icardsyco...', Array, true)
+#7 /home/icardsycom/framework/yii/web/CController.php(869): CBaseController->renderFile('/home/icardsyco...', Array, true)
+#8 /home/icardsycom/framework/yii/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#9 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(182): CController->render('admin', Array)
+#10 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): DamascusListController->actionAdmin()
+#11 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(240): CFilterChain->run()
+#14 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): DamascusListController->filterCheckAccess(Object(CFilterChain))
+#15 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#17 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('admin')
+#19 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('damascusList/ad...')
+#20 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/damascusList/admin?DamascusList%5Bnum%5D=&DamascusList%5Bdate%5D=&DamascusList%5Bstart_date%5D=&DamascusList%5Bend_date%5D=&DamascusList%5Bcourse_type_id%5D=1&DamascusList%5Bfirst_name%5D=%D8%A8%D8%B3%D8%A7%D9%85&DamascusList%5Blast_name%5D=%D8%AD%D9%88%D9%89&DamascusList%5Bfather_name%5D=&ajax=damascus-list-grid
+HTTP_REFERER=http://www.icard.technology/damascusList/admin
+---
+2018/08/12 05:46:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (8,12,13,29,35,45,61,85,102,103,154,155,156,157,158,159,160,161,162,163,221,250,251,252,253,268,269,296,297,298,299,305,306,307,329,331,334,336,337,338,339,340,341,342,435,438,439,453,456,478,479,484,485,511,526,532,552,563,579,587,600,606,615,626,627,632,634,635,657,658,669,670,680,685,694,695,703,710,717,734,751,786,797,798,799,812,828,830,831,855,857,870,878,882,891,906,919,935,941,973,988,1001,1003,1049,1067,1073,1082,1088,1095,1120,1121,1126,1137,1138,1139,1146,1160,1164,1168,1184,1195,1214,1215,1221,1240,1257,1271,1289,1294,1337,1342,1366,1376,1391,1402,1413,1429,1430,1466,1480,1481,1485,1496,1505,1518,1538,1541,1550,1552,1563,1572,1576,1578,1580,1585,1599,1605,1606,1615,1631,1632,1637,1647,1650)) AND (student_id IN ()).
+in /home/icardsycom/public_html/protected/models/DamascusList.php (139)
+in /home/icardsycom/public_html/protected/views/damascusList/admin.php (98)
+in /home/icardsycom/public_html/protected/controllers/DamascusListController.php (182)
+2018/08/12 05:46:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '))' at line 1. The SQL statement executed was: SELECT * FROM `tbl_damascus_list_entry` `t` WHERE (course_id IN (8,12,13,29,35,45,61,85,102,103,154,155,156,157,158,159,160,161,162,163,221,250,251,252,253,268,269,296,297,298,299,305,306,307,329,331,334,336,337,338,339,340,341,342,435,438,439,453,456,478,479,484,485,511,526,532,552,563,579,587,600,606,615,626,627,632,634,635,657,658,669,670,680,685,694,695,703,710,717,734,751,786,797,798,799,812,828,830,831,855,857,870,878,882,891,906,919,935,941,973,988,1001,1003,1049,1067,1073,1082,1088,1095,1120,1121,1126,1137,1138,1139,1146,1160,1164,1168,1184,1195,1214,1215,1221,1240,1257,1271,1289,1294,1337,1342,1366,1376,1391,1402,1413,1429,1430,1466,1480,1481,1485,1496,1505,1518,1538,1541,1550,1552,1563,1572,1576,1578,1580,1585,1599,1605,1606,1615,1631,1632,1637,1647,1650)) AND (student_id IN ())' in /home/icardsycom/framework/yii/db/CDbCommand.php:543
+Stack trace:
+#0 /home/icardsycom/framework/yii/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 /home/icardsycom/framework/yii/db/ar/CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/icardsycom/public_html/protected/models/DamascusList.php(139): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /home/icardsycom/public_html/protected/views/damascusList/admin.php(98): DamascusList->search()
+#5 /home/icardsycom/framework/yii/web/CBaseController.php(126): require('/home/icardsyco...')
+#6 /home/icardsycom/framework/yii/web/CBaseController.php(95): CBaseController->renderInternal('/home/icardsyco...', Array, true)
+#7 /home/icardsycom/framework/yii/web/CController.php(869): CBaseController->renderFile('/home/icardsyco...', Array, true)
+#8 /home/icardsycom/framework/yii/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#9 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(182): CController->render('admin', Array)
+#10 /home/icardsycom/framework/yii/web/actions/CInlineAction.php(49): DamascusListController->actionAdmin()
+#11 /home/icardsycom/framework/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/icardsycom/public_html/protected/controllers/DamascusListController.php(240): CFilterChain->run()
+#14 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): DamascusListController->filterCheckAccess(Object(CFilterChain))
+#15 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#17 /home/icardsycom/framework/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('admin')
+#19 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('damascusList/ad...')
+#20 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/damascusList/admin?DamascusList%5Bnum%5D=&DamascusList%5Bdate%5D=&DamascusList%5Bstart_date%5D=&DamascusList%5Bend_date%5D=&DamascusList%5Bcourse_type_id%5D=1&DamascusList%5Bfirst_name%5D=%D8%A8%D8%B3%D8%A7%D9%85%D9%81%D8%A7%D8%AF%D9%8A&DamascusList%5Blast_name%5D=%D8%AD%D9%88%D9%89&DamascusList%5Bfather_name%5D=&ajax=damascus-list-grid
+HTTP_REFERER=http://www.icard.technology/damascusList/admin
+---
+2018/08/12 07:45:22 [error] [php] Creating default object from empty value (/home/icardsycom/public_html/protected/controllers/StudentController.php:670)
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): StudentController->runAction()
+#1 /home/icardsycom/public_html/protected/controllers/StudentController.php(978): CFilterChain->run()
+#2 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): StudentController->filterCheckAccess()
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#4 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/CController.php(265): StudentController->runActionWithFilters()
+#6 /home/icardsycom/framework/yii/web/CWebApplication.php(282): StudentController->run()
+#7 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/icardsycom/public_html/index.php(13): CWebApplication->run()
+REQUEST_URI=/student/updateRegistration
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (670)
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (978)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 07:49:40 [error] [php] Creating default object from empty value (/home/icardsycom/public_html/protected/controllers/StudentController.php:670)
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(133): StudentController->runAction()
+#1 /home/icardsycom/public_html/protected/controllers/StudentController.php(978): CFilterChain->run()
+#2 /home/icardsycom/framework/yii/web/filters/CInlineFilter.php(58): StudentController->filterCheckAccess()
+#3 /home/icardsycom/framework/yii/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#4 /home/icardsycom/framework/yii/web/CController.php(291): CFilterChain->run()
+#5 /home/icardsycom/framework/yii/web/CController.php(265): StudentController->runActionWithFilters()
+#6 /home/icardsycom/framework/yii/web/CWebApplication.php(282): StudentController->run()
+#7 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /home/icardsycom/public_html/index.php(13): CWebApplication->run()
+REQUEST_URI=/student/updateRegistration
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (670)
+in /home/icardsycom/public_html/protected/controllers/StudentController.php (978)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:17:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/icardsycom/framework/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+HTTP_REFERER=http://www.icard.technology/robots.txt
+---
+2018/08/12 08:37:45 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:37:45 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:38:10 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:38:10 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:40:00 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:40:00 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:40:24 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:40:24 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:40:51 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:40:51 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:41:21 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:41:21 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:41:48 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:41:48 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:43:41 [warning] [application] Failed to set unsafe attribute "course_type_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 08:43:41 [warning] [application] Failed to set unsafe attribute "student_course_id" of "Payment".
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (56)
+in /home/icardsycom/public_html/protected/controllers/PaymentController.php (459)
+in /home/icardsycom/public_html/index.php (13)
+2018/08/12 12:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "2082".' in /home/icardsycom/framework/yii/web/CController.php:483
+Stack trace:
+#0 /home/icardsycom/framework/yii/web/CController.php(270): CController->missingAction('2082')
+#1 /home/icardsycom/framework/yii/web/CWebApplication.php(282): CController->run('2082')
+#2 /home/icardsycom/framework/yii/web/CWebApplication.php(141): CWebApplication->runController('site/2082')
+#3 /home/icardsycom/framework/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /home/icardsycom/public_html/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/2082
+---
